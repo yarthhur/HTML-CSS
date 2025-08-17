@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 007</title>
+    <style>
+        body{
+            background-color: rgb(201, 119, 18);
+            font-style: italic;
+            font: 800;
+            font-variant: unset;
+            color: aliceblue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Desafio imagem flexivel</h1>
+    <p>Você está vendo a imagem completa? Experimente ampliar o tamanho da sua janela para aproveitar a melhor experiência 🫠</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/zumbi-300.png" type="image/png">
+
+        <source media="(max-width: 1050px)" srcset="imagens/zumbi-700.png" type="image/png">
+
+        <img src="imagens/zumbi-1000.png" alt="Zumbi-1000.png">
+    </picture>
+</body>
+</html>

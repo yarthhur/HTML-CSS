@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: gray;
+            margin: 0px;
+        }
+
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        h1{
+            text-align: center;
+        }
+
+        nav{
+            background-color: rgb(67, 65, 65);
+            padding: 3px;
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.46);
+        }
+
+        nav > a{
+            text-decoration: none;
+            color: red;
+            font-weight: bold;
+        }
+
+        nav > a:hover{
+            text-decoration: underline;
+        }
+
+        nav > a:visited{
+            color: rgb(242, 89, 89);
+        }
+
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 13px 0px;
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.532);
+        }
+
+        article{
+            background-color: lightgray;
+        }
+
+        article > aside{
+            background-color: rgb(142, 141, 141);
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 5px;
+            margin: 0px;
+        }
+
+        footer > p{
+            margin: 0px;
+        }
+
+        div#bola{
+            height: 200px;
+            width: 200px;
+            margin: 15px auto 15px auto;
+            background-color: white;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+   <header>
+    <h1>Meu site</h1>
+    <nav>
+        <a href="#">Instagram do Desenvolvedor</a>
+    </nav>
+   </header>
+   <main>
+    <section id="assuntos">
+        <article>
+            <h2>Esportes, Política e Tecnología</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum unde tenetur, voluptate incidunt distinctio quae asperiores? Sint atque non impedit neque officiis. Sunt temporibus vero unde facere, porro reprehenderit nesciunt!</p>
+        </article>
+    </section>
+    <section id="noticias">
+        <article>
+            <h2>Notícia sobre o Brasil</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam voluptates voluptatem ut est, dolorum delectus esse aliquid placeat eum error nesciunt dicta tempore pariatur omnis inventore consequatur, voluptate ea ipsa.</p>
+            <aside>
+                <p>Artigo escrito por Arthur</p>
+            </aside>
+        </article>
+    </section>
+   </main>
+   <footer>
+    <p>Desenvolvido por ALTY</p>
+   </footer>
+   <div id="bola">
+    
+   </div>
+</body>
+</html>
